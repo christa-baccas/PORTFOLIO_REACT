@@ -7,6 +7,10 @@
 div.card{
     border: none;
     padding: 1.5rem;
+    text-align: center;
+}
+.card a{
+    text-decoration: none;
 }
 .img{
     width: 100%;
