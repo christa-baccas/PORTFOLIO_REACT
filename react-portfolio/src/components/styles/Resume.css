@@ -1,0 +1,31 @@
+.resume-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+h3{
+    font-family: 'Heebo', sans-serif;
+}
+.front-end{
+    padding-top: .8rem;
+    margin: auto;
+    font-family: 'Heebo', sans-serif;
+    color: black;
+    /* color: #e0e1ddff; */
+    font-size: 20px;
+}
+.resume-btn{
+    margin: auto;
+    cursor: pointer;
+}
+button.btn{
+    background-color: #fff;
+    background-size: 4px 3px;
+    border-width: 2px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    color: #41403e;
+    cursor: pointer;
+    padding: .50rem;
+    transition: all 235ms ease-in-out;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import Pic from "../../../src/images/headshot.png";
-// import "../styling/About.css";
+import "../styles/About.css";
 
 export default function About() {
   return (

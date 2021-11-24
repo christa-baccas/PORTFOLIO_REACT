@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 import Header from './Header'
 import Navbar from './Navbar'
 
@@ -8,6 +9,7 @@ function ProfileContainer() {
     <div>
       <Header />
       <Navbar />
+      <Footer />
     </div>
   )
 }
