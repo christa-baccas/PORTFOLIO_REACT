@@ -1,0 +1,22 @@
+.jumbotron-fluid{
+    height: 9rem;
+    text-align: center;
+    /* background-color: #778da9ff; */
+}
+.jumbotron-fluid h1 {
+    font-size: 45px;
+    padding-top: 2rem;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bolder;
+    color:black;
+    /* color: #e0e1ddff; */
+}
+
+/* #root{
+    background-color: #e0e1ddff;
+    border: 0;
+    margin: 0;
+    background-image:url('../../images/bg1.png');
+    background-position: center;
+    height: 100%;
+} */

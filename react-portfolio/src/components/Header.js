@@ -1,0 +1,15 @@
+import React from "react";
+import '../styles/Header.css'
+
+function Header() {
+
+  return (
+    <header className="main-container" >
+       <div className="jumbotron-fluid">
+          <h1>CHRISTA BACCAS</h1>
+        </div>
+    </header>
+  );
+}
+
+export default Header;
