@@ -1,0 +1,11 @@
+nav.nav-bar{
+    display: flex;
+}
+.nav-tabs{
+    display: flex;
+    justify-content: space-evenly;
+}
+a.nav-link{
+    color: #e0e1ddff;
+}
+

@@ -1,6 +1,6 @@
 import { React, useState } from "react";
 import Form from "react-bootstrap/Form";
-// import "../styling/Contact.css";
+import "../styles/Contact.css";
 
 export default function Contact() {
   let [contact, setContact] = useState({
@@ -38,7 +38,7 @@ export default function Contact() {
           />
         </Form.Group>
         <Form.Group className="mb-3">
-          <Form.Label>Email Address</Form.Label>
+          <Form.Label>Email</Form.Label>
           <Form.Control
             type="email"
             placeholder="Enter Email Address"

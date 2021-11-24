@@ -18,7 +18,7 @@ export default function Resume() {
         </ul>
       </div>
       <div className="front-end">
-        <h3>Front-End Proficiencies</h3>
+        <h3>Back-End Proficiencies</h3>
         <ul>
           <li>APIs</li>
           <li>Node</li>
@@ -29,8 +29,16 @@ export default function Resume() {
           <li>GraphQL</li>
         </ul>
       </div>
-      <a href={Pdf} without rel="noopener noreferrer" target="_blank" className="resume-btn">
-        <button label="Resume" className="btn">Download Resume</button>
+      <a
+        href={Pdf}
+        without
+        rel="noopener noreferrer"
+        target="_blank"
+        className="resume-btn"
+      >
+        <button label="Resume" className="btn">
+          Download Resume
+        </button>
       </a>
     </div>
   );

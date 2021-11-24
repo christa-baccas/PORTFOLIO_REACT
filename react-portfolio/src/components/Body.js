@@ -1,9 +1,9 @@
 import React from "react";
+import '../components/styles/Navbar.css'
 
 function Body({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
-      <li className="nav-item">
         <a
           href="#About"
           onClick={() => handlePageChange("About")}
@@ -11,8 +11,6 @@ function Body({ currentPage, handlePageChange }) {
         >
           About
         </a>
-      </li>
-      <li className="nav-item">
         <a
           href="#Portfolio"
           onClick={() => handlePageChange("Portfolio")}
@@ -20,8 +18,6 @@ function Body({ currentPage, handlePageChange }) {
         >
           Portfolio
         </a>
-      </li>
-      <li className="nav-item">
         <a
           href="#contact"
           onClick={() => handlePageChange("Contact")}
@@ -29,8 +25,6 @@ function Body({ currentPage, handlePageChange }) {
         >
           Contact
         </a>
-      </li>
-      <li className="nav-item">
         <a
           href="#resume"
           onClick={() => handlePageChange("Resume")}
@@ -38,7 +32,6 @@ function Body({ currentPage, handlePageChange }) {
         >
           Resume
         </a>
-      </li>
     </ul>
   );
 }
