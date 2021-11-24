@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import Img2 from "../../../src/images/fanjam.png";
 import Img3 from "../../../src/images/sweepers.png";
 import Img4 from "../../../src/images/budget.png";
-import Img5 from "../../../src/images/Weather.png";
+import Img5 from "../../../src/images/weather.png";
 import Img6 from "../../../src/images/Password.png";
 import Img7 from "../../../src/images/NoteTaker.png";
 import "../styles/Portfolio.css";

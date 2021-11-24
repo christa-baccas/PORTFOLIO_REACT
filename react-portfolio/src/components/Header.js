@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className="main-container" >
        <div className="jumbotron-fluid">
-          <h1>CHRISTA BACCAS</h1>
+          <h1 className="header">CHRISTA BACCAS</h1>
         </div>
     </header>
   );
