@@ -13,11 +13,11 @@ function Footer() {
   }
 
   return (
-    <div className="footer">
+    <footer className="footer">
         <a href={myInfo.github}without rel="noopener noreferrer" target="_blank" ><FaGithubSquare /></a>
         <a href={myInfo.linkedin} without rel="noopener noreferrer" target="_blank" ><FaLinkedin /></a>
         <a href={myInfo.stackOverflow} without rel="noopener noreferrer" target="_blank" ><FaStackOverflow /></a>
-    </div>
+    </footer>
   );
 }
 

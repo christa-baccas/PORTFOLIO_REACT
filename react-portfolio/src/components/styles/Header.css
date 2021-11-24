@@ -20,3 +20,9 @@
     background-position: center;
     height: 100%;
 } */
+body{
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);    
+    /* background-image:url('../../images/bg1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+}
