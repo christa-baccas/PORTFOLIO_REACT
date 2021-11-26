@@ -17,7 +17,7 @@ export default function Resume() {
           <li>Bootstrap</li>
         </ul>
       </div>
-      <div className="front-end">
+      <div className="back-end">
         <h3>Back-End Proficiencies</h3>
         <ul>
           <li>APIs</li>
