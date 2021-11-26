@@ -29,6 +29,7 @@ export default function Resume() {
           <li>GraphQL</li>
         </ul>
       </div>
+      <div className='resume-container>'>
       <a
         href={Pdf}
         without
@@ -40,6 +41,7 @@ export default function Resume() {
           Download Resume
         </button>
       </a>
+      </div>
     </div>
   );
 }
