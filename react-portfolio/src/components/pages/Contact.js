@@ -31,7 +31,6 @@ export default function Contact() {
       window.alert('Email is invalid');
       return;
     }
-
   };
 
   return (
