@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithubSquare } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa'
 import { FaStackOverflow } from 'react-icons/fa'
-import '../components/styles/Footer.css'
+import './styles/Footer.css'
 
 function Footer() {
 
