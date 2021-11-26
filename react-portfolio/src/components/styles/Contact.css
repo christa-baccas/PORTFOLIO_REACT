@@ -30,6 +30,9 @@ form{
   background-color: #778DA9;
   cursor: pointer;
   transition: all 0.3s 0s ease-in-out;
+  border: none;
+  padding: .375rem .75rem;
+  border-radius: .25rem;
 }
 
 .button:hover {
