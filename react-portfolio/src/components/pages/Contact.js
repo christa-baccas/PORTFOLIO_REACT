@@ -1,6 +1,9 @@
 import { React, useState } from "react";
 import Form from "react-bootstrap/Form";
+import { validateEmail } from '../../utils/helpers';
+
 import "../styles/Contact.css";
+
 export default function Contact() {
   let [contact, setContact] = useState({
     userName: "",
@@ -14,6 +17,7 @@ export default function Contact() {
     let nameInput = document.querySelector(".name-input").value;
     let emailInput = document.querySelector(".email-input").value;
     let textArea = document.querySelector(".text-input").value;
+
     if (!nameInput || !emailInput || !textArea) {
       window.alert("Please enter text in the fields below.");
     } else {
@@ -23,6 +27,11 @@ export default function Contact() {
         textarea: textArea,
       });
     }
+    if (!validateEmail(emailInput)) {
+      window.alert('Email is invalid');
+      return;
+    }
+
   };
 
   return (
